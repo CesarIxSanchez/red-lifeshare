@@ -258,7 +258,7 @@ body {
   font-size: 18px;
 }
 
-@media (max-width: 960px) {
+@media screen and (max-width: 767px) {
   .layout {
     grid:
       "header" auto
@@ -272,4 +272,10 @@ body {
     right: 14px; 
     bottom: 14px; 
   }
+}
+
+@media print {
+    .boton-flo {
+        display: none;
+    }
 }
